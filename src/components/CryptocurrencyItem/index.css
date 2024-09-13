@@ -1,0 +1,30 @@
+.currency-logo {
+  width: 30px;
+}
+.currency-logo-name {
+  display: flex;
+}
+.currency-item {
+  padding: 10px 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.currency-values-container {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 567px) {
+  .currency-item {
+    padding: 10px 10px;
+  }
+  .currency-logo {
+    width: 20px;
+  }
+  .currency-values-container {
+    width: 50%;
+  }
+}
